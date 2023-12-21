@@ -1,0 +1,49 @@
+/* variables */
+:root{
+    --warna-utama:#a3b18a;
+    --warna-gelap:#0f0f0f;
+    --warna-lain:#333d29;
+}
+
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+section{
+    padding: 70px;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: var(--warna-utama);
+}
+
+.header-section .header-title{
+    color: var(--warna-lain);
+}
+
+.header-section .header-title-2{
+    color: var(--warna-utama);
+}
+
+.header-section .header-skill{
+    color: var(--warna-gelap);
+    text-decoration: none;
+}
+
+.header-section .header-skill:hover{
+    color: var(--warna-utama);
+}
+
+.header-section .header-skill i{
+    transition: .3s;
+}.header-section .header-skill:hover i{
+    transform: rotate(-35deg);
+}
+
+.header-section .header-img{
+    width: 70%;
+}
